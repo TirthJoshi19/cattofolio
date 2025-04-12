@@ -1,0 +1,116 @@
+.contactmain {
+    min-height: max-content;
+    color: #ededed;
+    width: 100vw;
+    background-color: #1f1926;
+    padding: 4%;
+    display: flex;
+}
+
+.contactheading {
+    width: 60%;
+    border-right: 2px solid white;
+}
+
+.contacthello {
+    font-size: 3.438rem !important;
+}
+
+.contactformdiv {
+    width: 40%;;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
+
+.contactform input {
+    height: 3.2rem;
+    background-color: #ededed;
+    border-radius: 7px;
+    width: 100%;
+    color: #2a2a2a;
+    padding: 1rem;
+}
+
+.emailp {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+#submit {
+    background-color: #51e;
+    color: white;
+    cursor: not-allowed;
+}
+
+.contactformdiv {
+    padding: 2%;
+    font-weight: 600;
+    text-align: left;
+}
+
+.contactmain h2 {
+    font-size: 3rem;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px) and (orientation: portrait){
+    .contactmain {
+        flex-direction: column;
+        border: none;
+    }
+
+
+
+    .contactheading {
+        width: 100%;
+        border: none;
+    }
+
+    .contactformdiv {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .contactmain {
+        flex-direction: column;
+    }
+.contactheading h1 {
+    font-size: 3rem;
+}
+
+    .contactheading h2 {
+        font-size: 3.2rem;
+        width: 100%;
+    }
+
+    .contacthead {
+        flex-direction: row;
+    }
+
+    .contactheading {
+        width: 100%;
+        border: none;
+    }
+
+    .contactformdiv {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .contactformdiv h3 {
+        padding: 1%;
+    }
+
+    .contactmain p {
+        font-size: 1.31rem;
+        margin: 2%;
+    }
+}

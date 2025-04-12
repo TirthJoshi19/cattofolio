@@ -1,0 +1,43 @@
+.skillsmain {
+    min-height: max-content;
+    background: #f7f7f7;
+    color: #1f1926;
+    padding: 4%;
+    padding-bottom: 6%;
+    padding: 3.2% 4% 4% 4% !important;
+    padding-bottom: 6% !important;
+
+}
+
+.skillsmain h2 {
+    width: 80%;
+    font-size: 4.75rem;
+    line-height: 120%;
+    letter-spacing: -3%;
+    
+}
+
+.skill {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    font-weight: 400;
+    padding-top: 1.7%;
+}
+
+@media only screen and (max-width: 468px) {
+    .skill h2 {
+        font-size: 1.875rem;
+    }
+    .skillsmain h2 {
+        font-size: 3.2rem !important;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+    .skill h2 {
+        font-size: 4.25rem;
+    }
+}

@@ -1,0 +1,159 @@
+.mainheadWide {
+    color: #f7f7f7;
+    font-size: clamp(3rem, 6.875rem, 7rem);
+    font-weight: 700;
+    letter-spacing: -4%;
+    line-height: 120%;
+}
+
+.iconbox {
+    width: 8.06rem;
+    max-height: 5.31rem;
+    border-radius: 96px;
+    background-color: var(--icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icontextcontainer {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.desktopHidden {
+    visibility: hidden;
+}
+
+.projecthead {
+    padding-left: 4%;
+    padding-top: 2%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--secondary-dark);
+}
+
+.subheadpar {
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding-top: 3.2%;
+}
+
+.subhead {
+    font-size: 5.18rem;
+    width: 50%;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--secondary-dark);
+    
+}
+
+
+
+.icon {
+    /* font-size: 4.4rem; */
+    min-height: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.formheading {
+  font-size: 3rem;
+  color: white;
+
+}
+
+.socials {
+  background-color: #dedede !important;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  margin-right: 11px !important;
+  padding: 11px !important;
+}
+
+@media  screen and (max-width: 468px) {
+    .mainheadWide {
+        font-size: clamp(40px, 4.063rem, 5rem);
+    }
+    
+    .desktopHidden {
+        visibility: visible;
+    }
+    
+    .iconbox {
+        max-height: 4rem;
+        margin-top: 2%;
+        width: 8rem;
+    }
+    
+    .icon {
+        font-size: 90%;
+    }
+
+    .mobileHidden {
+        visibility: hidden;
+    }
+    
+    .icondesktop {
+        display: none;
+    }
+
+    .outline {
+
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px)  {
+  .outline {
+    justify-content: center;
+  }
+
+  .tabletHidden {
+    display: none;
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .outline {
+    justify-content: center;
+  }
+
+ 
+  
+  /* Try a more specific selector or use !important for testing */
+  .subhead {
+    font-size: 5.18rem !important;
+    width: 90% !important;
+    
+  }
+}
+}
+
+/* For iPad Pro 11-inch */
+@media only screen and (min-width: 1024px) and (max-width: 1124px) {
+  /* iPad Pro 11-inch specific styles */
+  .subhead {
+    font-size: 4.5rem;
+    width: 70% !important;
+    /* other properties */
+  }
+}
+
+/* For iPad Pro 12.9-inch */
+@media only screen and (min-width: 1125px) and (max-width: 1366px) {
+  /* iPad Pro 12.9-inch specific styles */
+  .subhead {
+    font-size: 5rem;
+    width: 80% !important;
+    /* other properties */
+  }
+}
+
+@media screen and (max-width: 468px){
+  .subhead {
+    width: 90%;
+    font-size: 2.6rem;
+  }
+}

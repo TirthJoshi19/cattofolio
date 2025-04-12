@@ -1,0 +1,135 @@
+.workmain {
+    min-height: 100vh;
+    background-color: #1f1926;
+    color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    z-index: 4;
+    padding-bottom: 6%;
+}
+
+
+
+
+
+
+.worksect {
+    padding-top: 1%;
+    z-index: 44;
+}
+
+.group1 {
+    
+}
+
+.wp {
+    background-color: #ededed;
+    border-radius: 4px;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.imgcont {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.projectImageSect {
+    /* margin-left: 2.8vw; */
+    
+}
+
+.projectImageSect image {
+    border-radius: 78px !important;
+}
+
+.group1 {
+    display: grid;
+    grid-template-columns: 59% 39%;
+    gap: 0.7%;
+}
+
+.group2 {
+    margin-top: 12px;
+     display: grid;
+    grid-template-columns: 39% 59%;
+    gap: 0.7%;
+}
+
+.wp {
+    padding-bottom: 3%;
+}
+
+.viewproject {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-end;
+    transform: translate(0px,0px);
+    padding-right: 2%;
+}
+.projectImageSect {
+        padding: 4%;
+    }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+    .wp {
+        max-height: 30vh;
+    }
+
+    .group1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .group2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projectImageSect {
+        padding: 4%;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .group1, .group2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wp {
+        width: 80vw;
+    }
+    .imgcont .projectImageSect:last-child {
+        display: none !important;
+    }
+    .workmain {
+        padding-left: 0.4%;
+        padding-right: 0px;
+    }
+
+    .workmain h2 {
+    padding: 4% !important;
+}
+}
+
+/* Hi! I hope you can help me. I am a developer. I have worked with many people and studios. I help them make websites, and I would love to help you too! If that’s what you want. I made a free guide that shows you how to get people to be interested in your services.
+
+/* 
+I wonder if you can help me. I am a web dev and I help professionals with a website, would love to help if that's something you're looking for! 
+
+I have written an e-book on how to design converting websites and it's completely free:
+https://drive.google.com/file/d/1Bz2q_b-ieZ402NEkJCuYMoAN7-DVuuFV/view?usp=drive_link
+*/
