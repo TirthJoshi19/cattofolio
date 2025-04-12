@@ -5,7 +5,7 @@ import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-import Icon from '@/app/utils/icon';
+import Icon from '@/app/utils/IconComp';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);

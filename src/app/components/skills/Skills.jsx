@@ -1,6 +1,6 @@
 import { SubHead } from '@/app/utils/headings'
 import styles from './Skills.module.css'
-import Icon from '@/app/utils/icon'
+import Icon from '@/app/utils/IconComp'
 
 const Skills = () => {
   const skillsArr = [{name: 'Web development', icon: '/assets/react.png'}, {name: 'Design', icon: '/assets/design.png'}, {name: 'Programming', icon: '/assets/code.png'}, {name: 'WordPress', icon: '/assets/wpress.png'}]

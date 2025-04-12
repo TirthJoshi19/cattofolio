@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './utils.module.css'
-import Icon from './icon'
+import Icon from './IconComp'
 
 const MainHead = () => {
   return (
