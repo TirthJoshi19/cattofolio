@@ -5,7 +5,7 @@ import Nav from '../Navbar/Nav';
 const Hero = () => {
   return (
         <div className='bgp'>
-        <Nav />
+        {/* <Nav /> */}
         
     <div className={styles.main}>
       <div className={styles.herotext}>

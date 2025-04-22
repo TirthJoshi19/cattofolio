@@ -4,7 +4,6 @@ import Nav from './components/Navbar/Nav';
 import Skills from './components/skills/Skills';
 import Testimonials from './components/Testimonials/Testimonials';
 import Work from './components/Work/Work';
-import O from './components/Contact/o';
 import { NavPanel } from './components/Navbar/Nav';
 
 export default function Home() {
