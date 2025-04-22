@@ -53,6 +53,13 @@
     padding: 2%;
     font-weight: 600;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactformdiv image {
+  
 }
 
 .contactmain h2 {
@@ -74,7 +81,7 @@
     }
 
     .contactformdiv {
-        width: 60%;
+        width: 100%;
     }
 }
 

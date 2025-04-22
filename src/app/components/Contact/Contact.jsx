@@ -3,6 +3,8 @@ import { ContactHeading, FormHeading, SubHead } from '@/app/utils/headings'
 import styles from './Contact.module.css'
 import Socials from '@/app/utils/socials'
 import { useForm } from 'react-hook-form'
+import Image from 'next/image'
+import { width } from '@mui/system'
 
 
 const Contact = () => {
@@ -15,8 +17,9 @@ const Contact = () => {
         <Socials />
       </div>
       <div className={styles.contactformdiv}>
-      <FormHeading />
-      <Form />
+      {/* <FormHeading />
+      <Form /> */}
+      <Cattoprofile />
       </div>
     </div>
   )
@@ -49,6 +52,15 @@ const Form = ()=> {
             <input type="submit" value={'Shoot'} id={styles.submit} />
         </form>
     )
+}
+
+const Cattoprofile = ()=> {
+  return (
+    <div className="text-center">
+      <Image src={'/assets/s.jpg'} width={350} height={350} alt='coolcat' className='rounded-full border-4 border-white'/>
+      <h2>Tirth Joshi</h2>
+    </div>
+  )
 }
 
 
