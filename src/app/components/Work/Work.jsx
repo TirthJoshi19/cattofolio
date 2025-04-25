@@ -3,6 +3,7 @@ import styles from './work.module.css';
 import Image from 'next/image';
 import { IconButton } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import Link from 'next/link';
 
 const Work = () => {
   return (
@@ -33,7 +34,7 @@ const Project = () => {
     <>
       <div className={styles.group1}>
         <div className={styles.wp}>
-            <ViewButton />
+            <ViewButton url={'https://www.adsonbarros.great-site.net'}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG1} />
           </div>
@@ -41,7 +42,7 @@ const Project = () => {
         </div>
         <div className={styles.wp}>
             
-            <ViewButton />
+            <ViewButton url={'https://www.sivlegraphics.com'}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG2} />
           </div>
@@ -55,10 +56,10 @@ const Project = () => {
           <div className={styles.imgcont}>
             <Images images={imagesForG2} />
           </div>
-          <ProjectHeading text={'Awesome Folio (view video)'}/>
+          <ProjectHeading text={'Awesome Folio (coming soon)'}/>
         </div>
         <div className={styles.wp}>
-             <ViewButton />
+             <ViewButton url={'https://www.nazly-design.com'}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG3} />
           </div>
@@ -79,12 +80,14 @@ const Images = ({ images, w = 40, h = 40 }) => {
   });
 };
 
-const ViewButton = ()=> {
+const ViewButton = ({url})=> {
     return (
         <div className={styles.viewproject}>
+          <Link href={url}>
             <IconButton >
                 <ArrowOutwardIcon />
             </IconButton>
+            </Link>
         </div>
     )
 }
