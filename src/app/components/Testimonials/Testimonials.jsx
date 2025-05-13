@@ -18,21 +18,21 @@ const Testimonials = () => {
   },
   {
     name: 'Adson Barros',
-    text: 'Designed a very beautiful website for me, it showcases my work well & looks pretty.',
+    text: 'Designed a very beautiful website for me, it showcases my work well & looks pretty. Now it will be useful for attracting more clients.',
     index: 1, 
     pic: '/assets/Adson.jpg',
     highlight: 'Made a great portfolio'
   },
   {
     name: 'Elike Solutions',
-    text: 'Developed an awesome website for me which helps me sell my kitchenware products',
+    text: 'Fixed the issues I had on my website, also provided a solution for presenting dynamic pricing',
     index: 2, 
     pic: '/assets/Elike Solutions.png',
     highlight: 'Fixed Issues I had',
   },
   {
     name: 'Tyler Bach',
-    text: 'Developed an awesome website for me which helps me sell my kitchenware products',
+    text: 'Developed an E-commerce website for me to sell my merchandise. The development was pretty quick and seemless.',
     index: 3, 
     pic: '/assets/tyler-500.png',
     highlight: 'I am impressed by the work',
@@ -41,7 +41,7 @@ const Testimonials = () => {
 
   return (
     <div className={styles.testimonialmain}>
-      <SubHead text={'Testimonials by People'} spanClass={'purplespan'}/>
+      <SubHead text={'Testimonials by clients'} spanClass={'purplespan'}/>
       
       <Testimonial highlight={testimonialData[testimonial].highlight} text={testimonialData[testimonial].text} image={testimonialData[testimonial].pic} testimonial={testimonial} setTestimonial={setTestimonial} name={testimonialData[testimonial].name}/>
     </div>

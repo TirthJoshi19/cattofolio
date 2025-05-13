@@ -9,7 +9,7 @@
 
 }
 
-.skillsmain h2 {
+.skillsmain h3 {
     width: 80%;
     font-size: 4.75rem;
     line-height: 120%;
@@ -30,14 +30,14 @@
     .skill h2 {
         font-size: 1.875rem;
     }
-    .skillsmain h2 {
+    .skillsmain h3 {
         font-size: 3.2rem !important;
     }
 
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
-    .skill h2 {
+    .skill h3 {
         font-size: 4.25rem;
     }
 }

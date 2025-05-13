@@ -28,8 +28,9 @@
 }
 
 .testimonialText p {
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: #303030;
+    padding: 11px;
 }
 
 .testimonialImage {

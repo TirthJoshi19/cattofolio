@@ -34,11 +34,11 @@ const Project = () => {
     <>
       <div className={styles.group1}>
         <div className={styles.wp}>
-            <ViewButton url={'https://www.adsonbarros.great-site.net'}/>
+            <ViewButton url={''}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG1} />
           </div>
-          <ProjectHeading text={'🌠 Adson Portfolio'}/>
+          <ProjectHeading text={'Adson Portfolio'}/>
         </div>
         <div className={styles.wp}>
             
@@ -52,14 +52,14 @@ const Project = () => {
       </div>
       <div className={styles.group2}>
         <div className={styles.wp}>
-             <ViewButton />
+             <ViewButton url={''}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG2} />
           </div>
           <ProjectHeading text={'Awesome Folio (coming soon)'}/>
         </div>
         <div className={styles.wp}>
-             <ViewButton url={'https://www.nazly-design.com'}/>
+             <ViewButton url={''}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG3} />
           </div>

@@ -46,7 +46,7 @@ body {
 }
 
 .purplespan {
-  color: var(--main);
+  /* color: var(--main); */
 }
 
 .darkspan {

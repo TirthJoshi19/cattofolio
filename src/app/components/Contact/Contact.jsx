@@ -13,7 +13,7 @@ const Contact = () => {
       <div className={styles.contactheading}>
         <ContactHeading />
         <SubHead text={'Say meow'} className={styles.contacthello}/>
-        <p className={styles.emailp}>Email: tirth.work19@gmail.com</p>
+        <p className={styles.emailp}>Email: tirth.work1902@gmail.com</p>
         <Socials />
       </div>
       <div className={styles.contactformdiv}>
@@ -57,7 +57,7 @@ const Form = ()=> {
 const Cattoprofile = ()=> {
   return (
     <div className="text-center">
-      <Image src={'/assets/s.jpg'} width={350} height={350} alt='coolcat' className='rounded-full border-4 border-white'/>
+      <Image src={'/assets/tirth7.png'} width={350} height={350} alt='coolcat' className='rounded-full border-4 border-white'/>
       <h2>Tirth Joshi</h2>
     </div>
   )
