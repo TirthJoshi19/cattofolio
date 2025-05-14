@@ -9,7 +9,7 @@ const MainHead = () => {
         <h1>I am substark </h1> <Icon mobileHidden={true} icon={'/assets/paw (2).png'} tabletHidden={true}/>
 
       </div>
-      I build digital solutions for brands.
+      I love building awesome stuff for people.
       <Icon icon={'/assets/paw (2).png'} mobileHidden={false} desktopHidden={true}/>
     </div>
   )
