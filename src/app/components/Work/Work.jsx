@@ -34,7 +34,7 @@ const Project = () => {
     <>
       <div className={styles.group1}>
         <div className={styles.wp}>
-            <ViewButton url={''}/>
+            <ViewButton url={'https://www.adsonbarros.great-site.net'}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG1} />
           </div>
@@ -59,7 +59,7 @@ const Project = () => {
           <ProjectHeading text={'Awesome Folio (coming soon)'}/>
         </div>
         <div className={styles.wp}>
-             <ViewButton url={''}/>
+             <ViewButton url={'https://nazly-design.com'}/>
           <div className={styles.imgcont}>
             <Images images={imagesForG3} />
           </div>

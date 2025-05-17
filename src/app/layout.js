@@ -30,6 +30,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${schibsted_Grotesk.variable} antialiased`}
       >
+        <div className="msgnyan">
+          <kbd>
+            <p>if you love cats, press N</p>
+          </kbd>
+        </div>
+        <div className="popupmsg">
+          <div>
+            <kbd>If you like cats, press N</kbd>
+            <button>close</button>
+          </div>
+        </div>
         {children}
       </body>
       <Script src="/scripts/bg.js"></Script>

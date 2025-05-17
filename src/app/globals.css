@@ -49,6 +49,69 @@ body {
   /* color: var(--main); */
 }
 
+.popupmsg {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupmsg div {
+  height: 30%;
+  background-color: #1f1926;
+  margin: 30px;
+  margin-top: -10%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  flex-direction: column;
+}
+
+.popupmsg button {
+  margin-top: 10px;
+  background-color: crimson;
+  padding: 7px 11px 7px 11px;
+  border-radius: 21px;
+}
+
+.msgnyan {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+
+}
+
+.msgnyan img {
+  width: 5% !important;
+  animation: fly 3s forwards;
+  position: relative;
+  left: 0;
+}
+
+@keyframes fly {
+  to {
+    left: 100%;
+    display: none;
+  }
+  
+}
+
+
+.msgnyan p {
+  text-align: center;
+}
+
 .darkspan {
   color: #1f1926;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Floating GIFs Animation</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Common styles for both GIFs */
+  .gif {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px; /* spacing between GIFs vertically */
+  }
+
+  /* First GIF flies left to right */
+  .fly-left-to-right {
+    animation: flyLR 5s linear infinite;
+  }
+
+  /* Second GIF flies left to right below the first */
+  .fly-left-to-right-below {
+    animation: flyLR 5s linear infinite;
+  }
+
+  @keyframes flyLR {
+    0% {
+      left: -150px; /* start offscreen to left */
+    }
+    100% {
+      left: calc(100% + 150px); /* move fully to right offscreen */
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" class="gif fly-left-to-right" alt="Flying GIF 1" />
+    <img src="https://media.giphy.com/media/l0HlOvJ7yaacpuSas/giphy.gif" class="gif fly-left-to-right-below" alt="Flying GIF 2" />
+  </div>
+</body>
+</html>

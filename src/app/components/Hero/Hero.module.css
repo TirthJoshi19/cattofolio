@@ -11,6 +11,10 @@
     padding-right: 4%;
 }
 
+.outline p:hover {
+  animation: fillUp backwards 3s;
+}
+
 .outline {
     display: flex;
     width: 100vw;
@@ -21,9 +25,44 @@
     color: #f7f7f704;
 }
 
+
 .outline p {
-    -webkit-text-stroke: 2px white;
+  font-size: 4rem;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+
+  background: linear-gradient(to top, white 0%, white 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  transition: background-size 0.3s ease-in-out;
 }
+
+.outline p:hover {
+  animation: fillOut 3s ease-in-out forwards;
+}
+
+/* Optional: if you want it to reset when mouse leaves */
+.outline p:not(:hover) {
+  animation: fillUp 3s ease-in-out forwards;
+}
+
+@keyframes fillUp {
+  to {
+    background-size: 0% 100%;
+  }
+}
+
+@keyframes fillOut {
+  to {
+    background-size: 100% 0%;
+  }
+}
+
 .herotext {
     padding-left: 4rem;
     font-size: 110px;
