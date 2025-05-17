@@ -2,14 +2,18 @@ document.addEventListener('DOMContentLoaded', nyanCat());
 
 function nyanCat() {
   document.querySelector('.msgnyan').textContent = '';
+  const masterDiv = document.querySelector('.msgnyan');
+
+  for (let i = 0; i < 11; i++) {
+    const div = document.createElement('div');
+    masterDiv.appendChild(div);
+  }
   document.addEventListener('keydown', (e) => {
     if (e.key === 'n') {
-      const div = document.createElement('div');
+      const index = Math.floor(Math.random() * 10);
       const img = document.createElement('img');
-      document.querySelector('.msgnyan')?.appendChild(div);
-      img.style.width = '25%';
-      div.appendChild(img);
-      img.src = '/assets/2DJU.gif';
+      img.src = 'assets/2DJU.gif';
+      masterDiv.children[index].appendChild(img);
     }
   });
 }
