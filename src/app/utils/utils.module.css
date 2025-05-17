@@ -4,6 +4,7 @@
     font-weight: 700;
     letter-spacing: -4%;
     line-height: 120%;
+    
 }
 
 .iconbox {
@@ -76,7 +77,16 @@
 @media  screen and (max-width: 468px) {
     .mainheadWide {
         font-size: clamp(40px, 4.063rem, 5rem);
+        max-width: 100vw;
+        margin-top: 10%;
+        
     }
+
+    .icontextcontainer div {
+      display: none;
+      width: 0;
+    }
+    
     
     .desktopHidden {
         visibility: visible;

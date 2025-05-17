@@ -1,17 +1,25 @@
 @import "tailwindcss";
 
 html {
-  background-color: #51e;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 
+#ffffff;
+  --foreground: 
+#171717;
   --main: #51e;
-  --accent: #f7f7f7;
-  --secondary: #1f1926;
-  --icon-color: #d9d9d9;
-  --purple-light: #763aff;
+  --accent: 
+#f7f7f7;
+  --secondary: 
+#1f1926;
+  --icon-color: 
+#d9d9d9;
+  --purple-light: 
+#763aff;
 }
 
 @theme inline {
@@ -24,7 +32,8 @@ html {
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #fff;
-    --foreground: #ededed;
+    --foreground: 
+#ededed;
   }
 }
 
@@ -33,11 +42,13 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   overflow-x: hidden;
+  width: 100vw
 }
 
 ::selection {
   background-color: rgba(255, 217, 0, 0.705);
-  color: #2a2a2a;
+  color: 
+#2a2a2a;
 }
 
 .flex-between {
@@ -62,7 +73,8 @@ body {
 
 .popupmsg div {
   height: 30%;
-  background-color: #1f1926;
+  background-color: 
+#1f1926;
   margin: 30px;
   margin-top: -10%;
   width: 40%;
@@ -104,16 +116,17 @@ body {
     left: 100%;
     display: none;
   }
-  
-}
 
+}
 
 .msgnyan p {
   text-align: center;
+  visibility: hidden;
 }
 
 .darkspan {
-  color: #1f1926;
+  color: 
+#1f1926;
 }
 
 .invert {
@@ -125,7 +138,8 @@ body {
 }
 
 .doublequotes {
-  color: #763aff;
+  color: 
+#763aff;
 }
 
 .contacthead {
@@ -159,11 +173,12 @@ body {
   width: 100vw;
   padding-left: 4rem;
     padding-right: 4rem;
-  
+
 }
 
 .darkbg {
-  background-color: #1f1926;
+  background-color: 
+#1f1926;
   z-index: 0;
   width: 100vw;
   min-height: max-content;
@@ -171,7 +186,8 @@ body {
 }
 
 .whitehead h2 {
-  color: #f7f7f7;
+  color: 
+#f7f7f7;
 }
 
 @media screen and (max-width: 468px) {
