@@ -1,15 +1,18 @@
 document.addEventListener('DOMContentLoaded', nyanCat());
+const masterDiv = document.querySelector('.msgnyan');
+masterDiv.style.maxHeight = '100vh';
+for (let i = 0; i < 11; i++) {
+  const div = document.createElement('div');
+  div.style.maxHeight = '10vh';
+  masterDiv.appendChild(div);
+}
 
 function nyanCat() {
   document.querySelector('.msgnyan').textContent = '';
-  const masterDiv = document.querySelector('.msgnyan');
 
-  for (let i = 0; i < 11; i++) {
-    const div = document.createElement('div');
-    masterDiv.appendChild(div);
-  }
   document.addEventListener('keydown', (e) => {
     if (e.key === 'n') {
+      console.log('happenes');
       const index = Math.floor(Math.random() * 10);
       const img = document.createElement('img');
       img.src = 'assets/2DJU.gif';
