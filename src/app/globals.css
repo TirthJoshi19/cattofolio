@@ -180,6 +180,10 @@ body {
   .contacthead {
     flex-direction: column;
   }
+
+  .popupmsg {
+    display: none;
+  }
 }
 
 .invert {
