@@ -12,7 +12,7 @@ const Contact = () => {
     <div className={styles.contactmain}>
       <div className={styles.contactheading}>
         <ContactHeading />
-        <SubHead text={'Say meow'} className={styles.contacthello}/>
+        <SubHead text={'Say hi'} className={styles.contacthello}/>
         <p className={styles.emailp}>Email: tirth.work1902@gmail.com</p>
         <Socials />
       </div>
