@@ -189,3 +189,7 @@ body {
 .invert {
   filter: invert(1);
 }
+
+.popupmsg {
+  z-index: 99;
+}

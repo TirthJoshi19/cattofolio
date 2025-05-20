@@ -4,7 +4,8 @@
     font-weight: 700;
     letter-spacing: -4%;
     line-height: 120%;
-    
+    animation: fadeIn 2s forwards;
+        opacity: 0;
 }
 
 .iconbox {
@@ -22,6 +23,7 @@
     display: flex;
     align-items: center;
     gap: 11px;
+    
 }
 
 .desktopHidden {
@@ -72,6 +74,15 @@
   box-shadow: none !important;
   margin-right: 11px !important;
   padding: 11px !important;
+}
+
+@keyframes fadeIn {
+ from {
+  opacity: 0;
+ } to {
+    opacity: 100;
+  }
+  
 }
 
 @media  screen and (max-width: 468px) {

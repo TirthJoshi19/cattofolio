@@ -6,7 +6,7 @@ const MainHead = () => {
   return (
     <div className={styles.mainheadWide}>
       <div className={styles.icontextcontainer}>
-        <h1>I am  Tirth</h1> <Icon mobileHidden={true} icon={'/assets/paw (2).png'} tabletHidden={true}/>
+        <h1>I am  Tirth</h1> <Icon mobileHidden={true} icon={'/assets/code.png'} tabletHidden={true}/>
 
       </div>
       I love crafting digital solutions for brands.
